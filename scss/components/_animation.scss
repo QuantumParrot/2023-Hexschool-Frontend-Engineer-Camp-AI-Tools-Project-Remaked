@@ -1,0 +1,15 @@
+.slide-animation-1 { animation: slide 3s ease 0.6s infinite; }
+
+.slide-animation-2 { animation: slide 3s ease 0.3s infinite; }
+
+.slide-animation-3 { animation: slide 3s ease infinite; }
+
+@keyframes slide {
+
+  0% { transform: translateY(100%); } 50%,70% { transform: translateY(0%); } 100% { transform: translateY(-100%); }
+
+}
+
+.scroll-right { animation: scroll-right 5s infinite; }
+
+.scroll-left { animation: scroll-left 5s infinite; }

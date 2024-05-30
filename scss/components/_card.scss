@@ -1,0 +1,36 @@
+.ai-card {
+
+  @extend .card;
+  @extend .overflow-hidden;
+  @extend .border-secondary;
+
+  height: 100%;
+
+  img:hover {
+
+    transform: scale(1.2);
+    transition: transform 0.5s;
+
+  }
+
+  .card-info {
+
+    color: $dark-gray;
+    font-size: $font-size-sm;
+
+  }
+
+  .card-section {
+
+    @extend .d-flex;
+    @extend .justify-content-between;
+    @extend .px-6;
+    @extend .py-4;
+
+    border-top: 1px solid $light-gray;
+
+    .material-icons { @extend .d-block; }
+    
+  }
+
+}

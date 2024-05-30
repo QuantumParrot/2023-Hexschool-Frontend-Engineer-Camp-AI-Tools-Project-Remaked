@@ -1,0 +1,31 @@
+.pagination {
+
+  gap: 4px;
+
+  .page {
+
+    @extend .d-flex;
+    @extend .justify-content-center;
+    @extend .align-items-center;
+
+    font-size: $font-size-sm;
+    line-height: 1;
+    padding: 17px;
+    border-radius: 16px;
+
+    &:hover { background: $light-gray; }
+
+    &.active {
+
+      cursor: default;
+      background: $black;
+      color: $white;
+      &:hover { opacity: 1; }
+
+    }
+    
+    .material-icons { font-size: $font-size-sm; }
+
+  }
+
+}

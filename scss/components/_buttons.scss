@@ -1,0 +1,38 @@
+.btn-start {
+
+  @extend .btn;
+  @extend .btn-outline-primary;
+  @extend .fw-bolder;
+  @extend .px-7;
+  @extend .py-4;
+  @extend .fs-5;
+
+}
+
+.btn-filter {
+
+  @extend .d-flex;
+  @extend .align-items-center;
+  @extend .px-7;
+  @extend .py-4;
+  @extend .rounded-4;
+  border: 1px solid $light-gray;
+
+}
+
+.filter {
+
+  position: relative;
+
+  .filter-menu {
+
+    position: absolute;
+    z-index: 10;
+    @extend .bg-white;
+    @extend .px-7;
+    @extend .py-4;   
+    @extend .rounded-4;
+
+  }
+  
+}

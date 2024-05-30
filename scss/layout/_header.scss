@@ -1,0 +1,17 @@
+.header .material-icons { font-size: 24px; }
+
+.nav-menu {
+
+  @extend .display-2;
+  @extend .text-center;
+  font-size: $font-size-base*5;
+
+}
+
+@media (max-width: 767px) {
+
+  .header { padding: 28px 0px; }
+
+  .header .logo { width: 147px; }
+
+}

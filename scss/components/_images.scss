@@ -1,0 +1,29 @@
+img {
+
+  max-width: 100%;
+  height: auto;
+  display: block;
+
+}
+
+.logo { width: 245px; }
+
+@media (max-width: 425px) {
+
+  .header .logo { width: 147px; }
+
+}
+
+.deco { margin-bottom: 160px; }
+
+@media (max-width: 767px) {
+
+  .deco {
+
+    margin-bottom: 120px;
+    
+    img { width: 117px; }
+
+  }
+
+}

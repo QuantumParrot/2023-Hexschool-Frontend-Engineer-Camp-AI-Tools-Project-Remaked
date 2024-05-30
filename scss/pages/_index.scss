@@ -1,0 +1,90 @@
+.index-banner { margin-bottom: 100px; }
+
+@media (max-width: 375px) {
+
+  .index-banner { margin-bottom: 180px; }
+
+}
+
+@media (max-width: 375px) {
+
+  .service-title { font-size: $h5-font-size; }
+
+  .service-info { font-size: $h2-font-size; }
+
+}
+
+.pros .material-icons { font-size: 80px; }
+
+@media (max-width: 375px) {
+
+  .pros-title { font-size: $h2-font-size; }
+
+}
+
+.enterprise {
+
+  @extend .d-flex;
+  @extend .justify-content-center;
+  @extend .overflow-x-scroll;
+
+  position: relative;
+
+  &::before, &::after {
+
+    content: '';
+    position: sticky;
+    width: 160px;
+    height: 40px;
+
+  }
+
+  &::before {
+
+    top: 0; left: 0;
+    padding-right: 160px;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.99), rgba(0, 0, 0, 0.97), rgba(0, 0, 0, 0.93), rgba(0, 0, 0, 0.88), rgba(0, 0, 0, 0.82), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.67), rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.41), rgba(0, 0, 0, 0.33), rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.07), rgba(0, 0, 0, 0));
+  
+  }
+
+  &::after {
+
+    top: 0; right: 0;
+    padding-left: 160px;
+    background: linear-gradient(270deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.99), rgba(0, 0, 0, 0.97), rgba(0, 0, 0, 0.93), rgba(0, 0, 0, 0.88), rgba(0, 0, 0, 0.82), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.67), rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.41), rgba(0, 0, 0, 0.33), rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.07), rgba(0, 0, 0, 0));
+
+  }
+
+  img { width: 160px; height: 40px; }
+
+}
+
+/* 隱藏Ｘ軸：Chrome, Safari, Opera */
+
+.enterprise::-webkit-scrollbar { display: none; }
+
+/* 隱藏Ｘ軸：IE, Edge, Firefox */
+
+.enterprise {
+
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+
+}
+
+.recommend .card { background: #1A1A1A; }
+
+.swiper-pagination.swiper-pagination-bullets {
+
+  bottom: 0px;
+  
+  .swiper-pagination-bullet { background-color: $dark-gray; }
+  .swiper-pagination-bullet-active {
+
+    background-color: $white;
+    transform: scale(1.5);
+    vertical-align: middle;
+
+  }
+
+}

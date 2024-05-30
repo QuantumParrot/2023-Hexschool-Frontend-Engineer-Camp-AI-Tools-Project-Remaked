@@ -1,0 +1,65 @@
+.pricing-banner {
+
+  margin-bottom: 240px;
+  h2 { margin-bottom: $font-size-base*4; }
+
+}
+
+@media (max-width: 375px) {
+
+  .pricing-banner { margin-bottom: 260px; }
+
+}
+
+.price-card {
+
+  @extend .card;
+  @extend .border-gray;
+  @extend .h-100;
+
+  &:hover {
+
+    @extend .border-white;
+    transition: border 0.5s;
+
+  }
+
+  &-title {
+
+    @extend .h2;
+    margin-bottom: 12px;
+
+  };
+
+  .material-icons { font-size: 10px; }
+
+}
+
+.rule p { font-size: $h2-font-size; }
+
+@media(max-width: 375px) {
+
+  .rule p { font-size: $font-size-base; }
+
+}
+
+.faq-column {
+
+  @extend .border;
+  @extend .px-7;
+  @extend .py-4;
+  @extend .border-gray;
+  @extend .rounded-4;
+
+  &:hover {
+
+    @extend .border-white;
+    transition: border 0.5s;
+
+  }
+
+}
+
+.question { @extend .d-flex; }
+
+

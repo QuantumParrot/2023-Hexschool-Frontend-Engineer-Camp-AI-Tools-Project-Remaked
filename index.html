@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首頁 - AI 工具王</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js' integrity='sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==' crossorigin='anonymous'></script>
+</head>
+<body>
+    <header class="container">
+        <div class="header navbar py-md-4 border-bottom border-white fw-bold">
+            <h1><a href="index.html"><img class="logo" src="img/logo.png" alt="AI 工具王"></a></h1>
+            <div class="nav-menu-state">
+                <span class="material-icons nav-menu-icon d-md-none">menu</span>
+                <span class="material-icons clear-icon d-none">clear</span>
+            </div>
+            <ul class="d-md-flex d-none">
+                <li class="nav"><a href="index.html">首頁</a></li>
+                <li class="nav ms-4"><a href="pricing.html">定價</a></li>
+            </ul>
+        </div>
+        <ul class="nav-menu d-none my-12">
+            <li><a href="index.html">首頁</a></li>
+            <li><a href="pricing.html">定價</a></li>
+        </ul>
+    </header>
+    <main>
+    <div class="container">
+        <div class="index-banner">
+            <h2 class="my-7 display-1">
+            透過<br>
+            ＡＩ工具王的<br>
+            強大模型<br>
+            讓您的業務<br>
+            更聰明
+            </h2>
+            <a class="btn-start" href="#">開始使用</a>
+        </div>
+        <div class="deco d-flex justify-content-md-end justify-content-center overflow-hidden">
+            <img class="slide-animation-1" src="img/deco.png" alt="deco">
+            <img class="slide-animation-2" src="img/deco.png" alt="deco">
+            <img class="slide-animation-3" src="img/deco.png" alt="deco">
+        </div>
+        <div class="service row mb-md-9 mb-8 g-5">
+            <h2 class="service-title col-lg-4">我們的服務</h2>
+            <h3 class="service-info col-lg-8 display-6">
+            我們相信透過ＡＩ技術，<br>
+            包括圖像識別、自然語言處理和機器翻譯等，讓您更快、更準確地做出決策。
+            </h3>
+        </div>
+        <ul class="pros row g-3">
+            <li class="col-md-4">
+                <div class="px-md-7 py-md-9 px-4 py-7 border rounded-4 border-white h-100">
+                    <span class="material-icons">flash_on</span>
+                    <h2 class="pros-title py-4">快速</h2>
+                    <p>我們領先業界的先進推理基礎設施提供了極短的響應時間，讓你的產品服務不間斷。</p>
+                </div>
+            </li>
+            <li class="col-md-4">
+                <div class="px-md-7 py-md-9 px-4 py-7 border rounded-4 border-white h-100">
+                    <span class="material-icons">auto_awesome</span>
+                    <h2 class="pros-title py-4">靈活</h2>
+                    <p>我們的服務可以根據您的需求進行靈活調整，同時還可以滿足不同項目和預算的需求。</p>
+                </div>
+            </li>
+            <li class="col-md-4">
+                <div class="px-md-7 py-md-9 px-4 py-7 border rounded-4 border-white h-100">
+                    <span class="material-icons">library_add</span>
+                    <h2 class="pros-title py-4">擴充</h2>
+                    <p>我們的服務支持多種擴充選項，可以滿足您的不斷增長的 AI 需求。</p>
+                </div>
+            </li>
+        </ul>
+        <div class="partner my-lg-11 my-10">
+            <h2 class="mb-md-9 mb-5">來自合作夥伴</h2>
+            <div class="enterprise mb-4">
+                    <img src="img/enterprise0.png" alt="enterprise">
+                    <img src="img/enterprise1.png" alt="enterprise">
+                    <img src="img/enterprise2.png" alt="enterprise">
+                    <img src="img/enterprise3.png" alt="enterprise">
+                    <img src="img/enterprise4.png" alt="enterprise">
+                    <img src="img/enterprise5.png" alt="enterprise">
+                    <img src="img/enterprise6.png" alt="enterprise">
+                    <img src="img/enterprise1.png" alt="enterprise">
+            </div>
+            <div class="enterprise mb-md-11 mb-8">
+                    <img src="img/enterprise7.png"  alt="enterprise">
+                    <img src="img/enterprise8.png"  alt="enterprise">
+                    <img src="img/enterprise9.png"  alt="enterprise">
+                    <img src="img/enterprise5.png"  alt="enterprise">
+                    <img src="img/enterprise11.png" alt="enterprise">
+                    <img src="img/enterprise12.png" alt="enterprise">
+                    <img src="img/enterprise7.png"  alt="enterprise">
+            </div>
+            <div class="recommend swiper">
+                <div class="swiper-wrapper pb-8">
+                    <div class="swiper-slide swiper-autoheight">
+                        <div class="card p-7 h-100 text-white">
+                            <div class="rate mb-4">
+                            <span class="material-icons">grade</span>
+                            <span class="material-icons">grade</span>
+                            <span class="material-icons">grade</span>
+                            <span class="material-icons">grade</span>
+                            <span class="material-icons">grade</span>
+                            </div>
+                            <p class="mb-4 flex-grow-1 text-secondary">
+                            我非常喜歡ＡＩ工具王提供的ＡＩ模型租賃服務，使用起來方便，而且效果很好。<br>
+                            對我們公司的業務來說，這個服務非常重要，因為我們需要大量的數據進行分析和預測，ＡＩ工具王提供的ＡＩ模型能夠幫助我們節省大量時間和成本，實在是太棒了！
+                            </p>
+                            <div class="d-flex">
+                                <img src="img/avatar3.png" alt="Ms.Chen">
+                                <div class="profile ms-3">
+                                    <p class="pb-1">陳小姐</p>
+                                    <p><small>ABC 科技有限公司</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide swiper-autoheight">
+                        <div class="card p-7 h-100 text-white">
+                            <div class="rate mb-4">
+                            <span class="material-icons">grade</span>
+                            <span class="material-icons">grade</span>
+                            <span class="material-icons">grade</span>
+                            <span class="material-icons">grade</span>
+                            <span class="material-icons">grade</span>
+                            </div>
+                            <p class="mb-4 flex-grow-1 text-secondary">
+                            作為一家醫療器材公司，我們非常關注人工智能技術的應用，而ＡＩ工具王提供的ＡＩ模型租賃服務為我們帶來了很大的幫助。<br>
+                            我們使用ＡＩ工具王的模型進行醫學影像分析和預測，這些模型非常精確，能夠幫助我們更好地診斷病情，提高治療效果。感謝ＡＩ工具王團隊！
+                            </p>
+                            <div class="d-flex">
+                                <img src="img/avatar1.png" alt="Ms.Lui">
+                                <div class="profile ms-3">
+                                    <p class="pb-1">劉小姐</p>
+                                    <p><small>XYZ 醫療器材有限公司</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide swiper-autoheight">
+                        <div class="card p-7 text-white">
+                            <div class="rate mb-4">
+                            <span class="material-icons">grade</span>
+                            <span class="material-icons">grade</span>
+                            <span class="material-icons">grade</span>
+                            <span class="material-icons">grade</span>
+                            <span class="material-icons">grade</span>
+                            </div>
+                            <p class="mb-4 text-secondary">
+                            我們銀行一直在尋找能夠幫助我們提高風險控制和客戶服務的解決方案，而ＡＩ工具王提供的ＡＩ模型租賃服務正好滿足了我們的需求。<br>
+                            我們使用ＡＩ工具王的模型進行客戶信用評估和詐騙檢測等任務，這些模型非常準確，能夠幫助我們更好地控制風險，提高客戶滿意度。非常感謝ＡＩ工具王團隊的支持！
+                            </p>
+                            <div class="d-flex">
+                                <img src="img/avatar2.png" alt="Mr.Huang">
+                                <div class="profile ms-3">
+                                    <p class="pb-1">黃先生</p>
+                                    <p><small>EFG 銀行</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+    <div class="ai-tools">
+        <div class="container text-black">
+            <h2 class="display-2 text-center mb-6 mb-md-9">這些超酷的應用，都來自ＡＩ工具王</h2>
+            <div class="search mb-md-5 mb-3">
+                <input type="search" class="search-bar" name="search-ai" placeholder="輸入關鍵字搜尋">
+                <span class="material-icons">search</span>
+            </div>
+            <div class="navbar mb-7">
+                <div class="filter">
+                    <a class="btn-filter box-shadow" href="#">
+                        <span class="me-3">篩選</span>
+                        <span class="material-icons">filter_alt</span>
+                    </a>
+                    <ul class="filter-menu box-shadow mt-1">
+                        <li class="text-muted pb-3"><small>模型</small></li>
+                        <ul class="pb-3 border-bottom border-secondary">
+                            <li class="mb-2"><a href="#">所有模型</a></li>
+                            <li class="mb-2"><a href="#">卡卡</a></li>
+                            <li class="mb-2"><a href="#">杰杰</a></li>
+                            <li class="mb-2"><a href="#">琪琪</a></li>
+                            <li><a href="#"></a>旻旻</li>
+                        </ul>
+                        <li class="text-muted pt-3 pb-3"><small>所有類型</small></li>
+                        <ul>
+                            <li class="mb-2"><a href="#">全部</a></li>
+                            <li class="mb-2"><a href="#">聊天</a></li>
+                            <li class="mb-2"><a href="#">影像辨識</a></li>
+                            <li class="mb-2"><a href="#">翻譯</a></li>
+                            <li class="mb-2"><a href="#">行銷</a></li>
+                            <li class="mb-2"><a href="#">客服</a></li>
+                            <li><a href="#">生產力</a></li>
+                        </ul>
+                    </ul>
+                </div>
+                <ul class="filter-list mt-3 mt-lg-0">
+                    <li class="flex-shrink-0"><a href="#">全部</a></li>
+                    <li class="flex-shrink-0"><a href="#">聊天</a></li>
+                    <li class="flex-shrink-0"><a href="#">影像辨識</a></li>
+                    <li class="flex-shrink-0"><a href="#">翻譯</a></li>
+                    <li class="flex-shrink-0"><a href="#">行銷</a></li>
+                    <li class="flex-shrink-0"><a href="#">客服</a></li>
+                    <li class="flex-shrink-0"><a href="#">生產力</a></li>
+                </ul>                 
+                <div class="filter">
+                    <a class="btn-filter box-shadow" href="#">
+                        <span class="btn-filter-text me-3">由新到舊</span>
+                        <span class="material-icons">keyboard_arrow_down</span>
+                    </a>
+                    <ul class="filter-menu box-shadow mt-1">
+                        <li class="new-to-old mb-2"><a href="#">由新到舊</a></li>
+                        <li class="old-to-new"><a href="#">由舊到新</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="ai-cards-list row gy-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="ai-card">
+                        <div class="overflow-hidden">
+                            <img class="w-100" src="img/tool1.png" alt="Chatbot Builder">
+                        </div>
+                        <h5 class="card-title px-6 pt-4">Chatbot Builder</h5>
+                        <p class="card-info px-6 pb-4 flex-grow-1">建立智能化的聊天機器人，可以解答常見問題、提供客戶支援、收集反饋等。</p>
+                        <div class="card-section">
+                            <p class="fw-bold">AI 模型</p>
+                            <p>卡卡</p>
+                        </div>
+                        <div class="card-section">
+                            <a href="#" alt="聊天"># 聊天</a>
+                            <a target="_blank" href="#" title="Chatbot Builder"><span class="material-icons">share</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="ai-card">
+                        <div class="overflow-hidden">
+                            <img class="w-100" src="img/tool2.png" alt="Image Recognition Platform">
+                        </div>
+                        <h5 class="card-title px-6 pt-4">Image Recognition Platform</h5>
+                        <p class="card-info px-6 pb-4 flex-grow-1">專業的圖像識別平台，識別圖像、分類、標記等。</p>
+                        <div class="card-section">
+                            <p class="fw-bold">AI 模型</p>
+                            <p>杰杰</p>
+                        </div>
+                        <div class="card-section">
+                            <a href="#" alt="影像辨識"># 影像辨識</a>
+                            <a target="_blank" href="#" title="Image Recognition Platform"><span class="material-icons">share</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="ai-card">
+                        <div class="overflow-hidden">
+                            <img class="w-100" src="img/tool3.png" alt="Language Translation API">
+                        </div>
+                        <h5 class="card-title px-6 pt-4">Language Translation API</h5>
+                        <p class="card-info px-6 pb-4 flex-grow-1">專業的語言翻譯 API，實現文本翻譯功能，支援多種格式的文本。</p>
+                        <div class="card-section">
+                            <p class="fw-bold">AI 模型</p>
+                            <p>琪琪</p>
+                        </div>
+                        <div class="card-section">
+                            <a href="#" alt="翻譯"># 翻譯</a>
+                            <a target="_blank" href="#" title="Language Translation API"><span class="material-icons">share</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="ai-card">
+                        <div class="overflow-hidden">   
+                            <img class="w-100" src="img/tool4.png" alt="Sentiment Analysis API">
+                        </div>
+                        <h5 class="card-title px-6 pt-4">Sentiment Analysis API</h5>
+                        <p class="card-info px-6 pb-4">自動識別文本中的情感傾向，包括正向、負向和中性等。適用於情感分析、社交媒體監控、市場調查等。</p>
+                        <div class="card-section">
+                            <p class="fw-bold">AI 模型</p>
+                            <p>旻旻</p>
+                        </div>
+                        <div class="card-section">
+                            <a href="#" alt="行銷"># 行銷</a>
+                            <a target="_blank" href="#" title="Sentiment Analysis API"><span class="material-icons">share</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="ai-card">
+                        <div class="overflow-hidden">
+                            <img class="w-100" src="img/tool5.png" alt="Fraud Detection Platform">
+                        </div>
+                        <h5 class="card-title px-6 pt-4">Fraud Detection Platform</h5>
+                        <p class="card-info px-6 pb-4 flex-grow-1">預防詐騙活動，適用於銀行、金融、電商等。</p>
+                        <div class="card-section">
+                            <p class="fw-bold">AI 模型</p>
+                            <p>卡卡</p>
+                        </div>
+                        <div class="card-section">
+                            <a href="#" alt="客服"># 客服</a>
+                            <a target="_blank" href="#" title="Fraud Detection Platform"><span class="material-icons">share</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="ai-card">
+                        <div class="overflow-hidden">
+                            <img class="w-100" src="img/tool6.png" alt="Voice Assistant SDK">
+                        </div>
+                        <h5 class="card-title px-6 pt-4">Voice Assistant SDK</h5>
+                        <p class="card-info px-6 pb-4 flex-grow-1">通過語音控制應用程式、設備，實現多種功能，例如播放音樂、查詢天氣、發送信息等。</p>
+                        <div class="card-section">
+                            <p class="fw-bold">AI 模型</p>
+                            <p>杰杰</p>
+                        </div>
+                        <div class="card-section">
+                            <a href="#" alt="生產力"># 生產力</a>
+                            <a target="_blank" href="#" title="Voice Assistant SDK"><span class="material-icons">share</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ul class="pagination mt-md-7 mt-6 d-flex justify-content-end align-items-center fw-bold">
+                <!-- <li><a class="page active" data-page="1" href="#">1</a></li>
+                <li><a class="page" data-page="2" href="#">2</a></li>
+                <li><a class="page" data-page="3" href="#">3</a></li>
+                <li><a class="page" data-page="4" href="#">4</a></li>
+                <li><a class="page" data-page="5" href="#">5</a></li>
+                <li><a class="page" href="#"><span class="material-icons">chevron_right</span></a></li> -->
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <div class="text-center py-11">
+            <h3 class="display-6 mb-md-7 mb-6">現在就來建立屬於你的服務吧</h3>
+            <a href="pricing.html" class="btn-start d-inline-flex align-items-center">
+                <span class="me-3">開始使用</span>
+                <span class="material-icons">north_east</span>
+            </a>
+        </div>
+        <div class="d-flex flex-md-row flex-column-reverse justify-content-between py-9 border-top border-white">
+            <ul class="display-2">
+                <li><a href="index.html">首頁</a></li>
+                <li><a href="pricing.html">定價</a></li>
+            </ul>
+            <a href="index.html"><img class="logo pb-7" src="img/logo.png" alt="AI 工具王"></a>
+        </div>
+    </div>
+    </main>
+    <footer class="container">
+        <div class="footer navbar py-6 border-top border-white fw-bold">
+            <div class="d-md-flex">
+                <span class="me-md-9">AI工具王 © 2023</span>
+                <ul class="nav mt-md-0 mt-6">
+                    <li class="ms-md-4"><a target="_blank" href="#">Facebook</a></li>
+                    <li class="ms-4"><a target="_blank" href="#">Twitter</a></li>
+                    <li class="ms-4"><a target="_blank" href="#">Instagram</a></li>
+                </ul>
+            </div>
+            <a class="back-to-top d-flex align-items-center" href="#">
+                <span class="me-3">Back to top</span>
+                <span class="material-icons">arrow_upward</span>
+            </a>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+    <script src="js/api.js"></script>
+</body>
+</html>

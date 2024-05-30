@@ -1,0 +1,14 @@
+.footer .material-icons { font-size: $font-size-base; }
+
+@media (max-width: 767px) {
+
+  .footer { position: relative; }
+
+  .back-to-top {
+
+    position: absolute;
+    top: 32px; right: 0px;
+  
+  }
+
+}

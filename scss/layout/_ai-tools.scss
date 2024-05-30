@@ -1,0 +1,48 @@
+.ai-tools {
+
+  @extend .bg-white;
+  @extend .py-lg-11;
+  @extend .py-9;
+
+  border-radius: 160px;
+
+}
+
+.filter-list {
+
+  @extend .nav;
+  @extend .text-muted;
+  gap: 8px;
+
+  a {
+    @extend .px-3;
+    @extend .py-2;
+    @extend .rounded-4;
+    &:hover {
+
+      background: $light-gray;
+      color: $black;
+      font-weight: $font-weight-bold;
+
+    }
+  }
+
+  &::-webkit-scrollbar { display: none; };
+
+  @extend .flex-nowrap;
+  @extend .overflow-x-scroll;
+
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+
+}
+
+@media (max-width: 991px) {
+
+  .ai-tools { border-radius: 20px; }
+
+  .filter { order: 1; }
+
+  .filter-list { order: 2; }
+
+}

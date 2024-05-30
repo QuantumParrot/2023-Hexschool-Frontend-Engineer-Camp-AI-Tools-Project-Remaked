@@ -1,0 +1,24 @@
+.search {
+
+  position: relative;
+
+  &-bar {
+
+    @extend .bg-secondary;
+    @extend .px-9;
+    @extend .py-4;
+    @extend .rounded-4;
+    width: 100%;
+    border: 1px solid $light-gray;
+
+  }
+
+  .material-icons {
+
+    color: $gray;
+    position: absolute;
+    top: 20px; left: 43px;
+
+  }
+  
+}
