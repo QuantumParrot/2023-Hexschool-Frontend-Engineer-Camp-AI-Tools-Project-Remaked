@@ -1,6 +1,4 @@
-## 2023 六角學院軟體工程師體驗營 - 證書任務 - AI 工具王（ 重製版 ）
-
-***
+## [2023 六角學院軟體工程師體驗營 - 證書任務 - AI 工具王（ 重製版 ）](https://quantumparrot.github.io/2023-Hexschool-Frontend-Engineer-Camp-AI-Tools-Project-Remaked/)
 
 ### 舊版更新歷史
 
