@@ -12,12 +12,15 @@
 
   @extend .nav;
   @extend .text-muted;
+
   gap: 8px;
 
   a {
+
     @extend .px-3;
     @extend .py-2;
     @extend .rounded-4;
+    
     &:hover {
 
       background: $light-gray;
@@ -25,6 +28,7 @@
       font-weight: $font-weight-bold;
 
     }
+
   }
 
   &::-webkit-scrollbar { display: none; };

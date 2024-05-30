@@ -16,6 +16,7 @@
   @extend .px-7;
   @extend .py-4;
   @extend .rounded-4;
+
   border: 1px solid $light-gray;
 
 }
@@ -28,6 +29,7 @@
 
     position: absolute;
     z-index: 10;
+    
     @extend .bg-white;
     @extend .px-7;
     @extend .py-4;   
